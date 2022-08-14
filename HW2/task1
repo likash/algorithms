@@ -10,7 +10,7 @@
 import math
 
 
-def max_perimeter_1(arr):
+def max_perimeter(arr):
     length = len(arr)
     max_p = 0
 
@@ -42,6 +42,6 @@ if __name__ == '__main__':
     for _ in range(T):
         arr.append(list(map(int, input().rstrip().split())))
 
-    result = max_perimeter_1(arr)
+    result = max_perimeter(arr)
 
     print(result)
